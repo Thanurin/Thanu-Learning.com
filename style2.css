@@ -1,0 +1,231 @@
+body {
+    background-image: url("unnamed.jpg");
+    background-size: auto;
+    box-shadow: 1px 1px 1px 1px gray;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+    body :nth-child(1) { animation-delay: 0.2s; }
+    body :nth-child(2) { animation-delay: 0.4s; }
+    body :nth-child(3) { animation-delay: 0.6s; }
+    body :nth-child(4) { animation-delay: 0.8s; }
+    body :nth-child(5) { animation-delay: 1s; }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+#my\ hero {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+
+}
+h1 {
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    text-align: center;
+}
+#first {
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    text-align: left;
+}
+ul {
+    font-family: 'Khmer OS Battambang', sans-serif;
+    color: white;
+}
+ img {
+    width: 50%;
+    height: auto;
+}
+#Khmer {
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+#Khmer:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#English {
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+#English:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#maths {
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+#maths:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#gpt {
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+#gpt:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#gemini {
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+#gemini:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#Physics {
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+#Physics:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#Es {
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+#Es:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#Biology {
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+#Biology:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#history {
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light',sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+#history:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#Gio{
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light',sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+}
+#Gio:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#I {
+    background-color: gray;
+    font-family: 'Khmer OS Muol Light',sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px 25px;
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+}
+#I {
+    background-color: black;
+    cursor: pointer;
+}
+#second {
+    font-family: 'Khmer OS Muol Light', sans-serif;
+    color: white;
+    text-align: left;
+}
+a {
+    text-decoration: dashed;
+    color: white;
+    font-size: 25px;
+}
+p {
+    text-align: center;
+    border-top: 1px solid gray;
+    font-size: 35px;
+    color: darkgray ;
+    font-family: 'Courier New', Courier, monospace;
+}
